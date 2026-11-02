@@ -11,7 +11,7 @@ export type LucciRepository = {
 const hiddenRepositoryNames = new Set([
   ".github",
   "flex-pay",
-  "lucci-website",
+  "labs-site",
   "skill-format-vscode",
   "stablecoin-acceptance-ledger",
 ])
