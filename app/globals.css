@@ -45,15 +45,15 @@ button, input { color: inherit; font: inherit; }
 button { border: 0; background: none; padding: 0; }
 ::selection { background: rgba(0, 0, 0, 0.12); }
 
-/* Motion — a quiet fade as content settles into place. */
+/* Keep the homepage opening readable on first paint; reveal supporting content on scroll. */
 html.motion-ready :is(
-  .hero, .home-intro, .section-head,
+  .section-head,
   .page-hero, .index-entry,
   .docs-content section,
   .post-heading, article.content
 ):not(.is-visible) { opacity: 0; }
 html.motion-ready :is(
-  .hero, .home-intro, .section-head,
+  .section-head,
   .page-hero, .index-entry,
   .docs-content section,
   .post-heading, article.content
