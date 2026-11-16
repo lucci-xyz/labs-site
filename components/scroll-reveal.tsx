@@ -5,8 +5,6 @@ import { usePathname } from "next/navigation"
 
 // Elements that fade into place. Kept in sync with the reveal rules in globals.css.
 const SELECTOR = [
-  ".hero",
-  ".home-intro",
   ".section-head",
   ".page-hero",
   ".index-entry",
